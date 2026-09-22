@@ -15,6 +15,7 @@ frontend_origin = os.environ["FRONTEND_ORIGIN"]
 
 app = FastAPI()
 
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[frontend_origin],
