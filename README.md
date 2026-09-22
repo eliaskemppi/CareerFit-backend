@@ -11,7 +11,8 @@ Live demo: https://careerfit-frontend-ghh4.onrender.com
 - Upload a CV as a PDF or paste it as text
 - Paste a full job posting or just its requirements
 - AI-powered requirement-by-requirement matching
-- Classifies requirements as **matched**, **partial**, **missing**, or **address elsewhere**
+- Classifies requirements as **matched**, **partial**, **missing**, or **address elsewhere** and color codes them
+- Gives detailed description and evidence on the classification of the requirements
 - Provides explanations and supporting CV evidence
 - Generates a small project recommendation targeting identified skill gaps
 
