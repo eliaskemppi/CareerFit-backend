@@ -24,6 +24,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# health check fuction
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
 
 # A function that does the analysis and returns a the required information
 @app.post("/analyze")
@@ -95,3 +99,4 @@ async def analyze(
         ],
         "project_recommendation": result["project_recommendation"],
     }
+
